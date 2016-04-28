@@ -1,0 +1,21 @@
+@CHARSET "UTF-8";
+
+.guestbook-flash-message {
+	border: 1px solid grey;
+	border-radius: 5px;
+	background-color: e0ffe0;
+	padding: 1em;	
+}
+
+.guestbook-previous-posts {
+	display: inline-block;
+}
+
+.guestbook-message{
+	margin-bottom: 1em;
+}
+
+.guestbook-message-header {
+	border-bottom: 1px solid black;
+	margin-bottom: 0.5em;
+}
