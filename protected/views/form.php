@@ -1,6 +1,6 @@
 <h2>Write a message</h2>
 <div class="guestbook-form">
-<form action="index.php" method="post">
+<form action="<?= $_SERVER['PHP_SELF'] ?>" method="post">
 <div class="guestbook-form-field">
 Your Name:<br>
 <input type="text" name="Post[author]"><br />

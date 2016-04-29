@@ -1,6 +1,6 @@
 <?php
 if (isset($_GET['success']))
-	echo '<div class="guestbook-flash-message">New Post was saved!</div>';
+	echo '<div class="guestbook-flash-message">New post was saved!</div>';
 
 
 $posts = Post::find('all', array('order' => 'created_at desc')); ?>

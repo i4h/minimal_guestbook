@@ -1,6 +1,5 @@
 <?php
 require_once('protected/bootstrap.php'); 
-//$user = Post::create(array('author' => 'Tito', 'text' => 'VA'));
 
 $newPost = new Post();
 
@@ -14,7 +13,7 @@ if (isset($_POST)) {
 		
 		if ($newPost->is_valid()) {
 			$newPost->save();
-			header('Location: '.BASE_URL."index.php?success=1");
+			header('Location: '.$_SERVER['PHP_SELF']."?success=1");
 		}
 	}
 }
