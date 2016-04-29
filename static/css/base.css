@@ -19,3 +19,15 @@
 	border-bottom: 1px solid black;
 	margin-bottom: 0.5em;
 }
+
+.guestbook-form-field {
+	margin-bottom: 0.5em;
+}
+
+.guestbook-form-error {
+	color: red;
+}
+
+.guestbook-message {
+	padding: 0.5em;
+}
