@@ -19,7 +19,7 @@ foreach($posts as $post) {
 
 <div class="guestbook-message">
 <div class="guestbook-message-header">Written by <?= $post->author ?> on <?= $date ?></div>
-<div class="guestbook-message-text"><?= $post->text ?></div>
+	<div class="guestbook-message-text"><?= nl2br($post->text) ?></div>
 
 </div>
 <?php 
